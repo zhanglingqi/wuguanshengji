@@ -1,0 +1,25 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/owner/owner",
+    "pages/visitT/visitT",
+    "pages/tenement/tenement",
+    "pages/tenementT/tenementT",
+    "pages/visitApply/visitApply",
+    "pages/tenementApply/tenementApply",
+    "pages/index/index",
+    "pages/payment/payment",
+    "pages/cartM/cartM",
+    "pages/plate-input/plate-input",
+    "pages/plateVinput/plateVinput",
+    "pages/plateMinput/plateMinput"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true,
+    "backgroundColor": "#ccc"
+  }
+}

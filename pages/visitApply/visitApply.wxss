@@ -1,0 +1,75 @@
+.visit {
+  width: 85%;
+  margin: 20rpx auto;
+  overflow: hidden;
+  border:2rpx solid;
+  color: #FAD56A;
+}
+.ownerVisit {
+  padding: 40rpx;
+  border-bottom: 1px dotted #FAD56A;
+  overflow: hidden;
+  position: relative;
+}
+.ownerVisi2 {
+  padding: 40rpx;
+  overflow: hidden;
+  position: relative;
+}
+.ownerVisit1 {
+  position: absolute;
+  overflow: hidden;
+  float: right;
+  right: 50rpx;
+  top: 90rpx;
+  width: 320rpx;
+}
+.dataTime {
+  display: flex;
+}
+.ownerVisit_1 {
+  height: 50rpx;
+  font-size: 36rpx;
+  color: #000000;
+  line-height: 50rpx;
+  
+}
+.ownerVisit_2 {
+  color: #9B9B9B;
+  height: 70rpx;
+  line-height: 70rpx;
+  font-size: 32rpx;
+}
+.ownerVisit_3 {
+  color: #4A4A4A;
+  font-size: 24rpx;
+  height: 70rpx;
+  line-height: 70rpx;
+  width: 
+}
+.ownerVisit_4 {
+  color: #9B9B9B;
+  font-size: 32rpx;
+  height: 70rpx;
+  line-height: 70rpx;
+}
+.ownerVisit_5 {
+  color: #F56437;
+  font-size: 32rpx;
+  height: 70rpx;
+  line-height: 70rpx;
+}
+.ownerVisit_6 {
+  height:67rpx;
+  font-size:48rpx;
+  color: #4A4A4A;
+}
+.btn {
+  width: 83%;
+  margin: 35rpx auto;
+  height: 93rpx;
+  line-height: 93rpx;
+  font-size: 36rpx;
+  background-color: #FAD56A;
+  border-radius:15rpx;
+}

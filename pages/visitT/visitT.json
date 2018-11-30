@@ -1,0 +1,8 @@
+{
+  "component": true,
+  "usingComponents": {},
+  "navigationBarTitleText": "访问业主信息",
+  "backgroundTextStyle": "light",
+  "navigationBarBackgroundColor": "#fff",
+  "navigationBarTextStyle": "black"
+}

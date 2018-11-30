@@ -1,0 +1,17 @@
+<view class='record' wx:for="{{ record }}"  wx:key="index">
+    <view>
+        <text class='record_1'>{{item.carNum }}</text>
+        <text class='record_2'>{{ item.serviceHoursAndMinute }}</text>
+        <text class='record_3'>{{ item.serviceDay}}</text>
+        <text class='record_5'>{{ item.serviceTime }}</text>
+        <text class='record_6'>{{ item.totalFee }}元</text>
+    </view>
+</view>
+<view class='record' wx:if="{{ record.length === 0 }}">
+    <view >
+         <view class='bacnon' >暂无停车数据</view>
+    </view>
+</view>
+
+
+

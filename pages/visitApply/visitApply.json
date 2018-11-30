@@ -1,0 +1,8 @@
+{
+  "component": true,
+  "usingComponents": {},
+  "navigationBarTitleText": "填写申请",
+  "backgroundTextStyle": "light",
+  "navigationBarBackgroundColor": "#fff",
+  "navigationBarTextStyle": "black"
+}

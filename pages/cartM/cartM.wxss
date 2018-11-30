@@ -1,0 +1,53 @@
+.record {
+  width: 80%;
+  margin: 30rpx auto;
+  height: 150rpx;
+  border: 1rpx solid #f5f5f5;
+  border-radius: 15rpx;
+  box-shadow:0px 0px  2rpx 2rpx #f5f5f5;
+  margin-top: 30rpx;
+  padding: 30rpx 38rpx 39rpx 27rpx;
+  position: relative;
+}
+.record text {
+  display: block;
+}
+.record_1 {
+  font-size: 32rpx;
+  height: 53rpx;
+  line-height: 53rpx;
+}
+.record_2 {
+  position: absolute;
+  top: 30rpx;
+  right: 39rpx;
+  font-size: 24rpx;
+}
+.record_3 {
+  position: absolute;
+  top: 100rpx;
+  left: 27rpx;
+  color: #9c9c9c;
+  font-size: 24rpx;
+}
+.record_5 {
+  position: absolute;
+  bottom: 39rpx;
+  left: 27rpx;
+  font-size: 24rpx;
+}
+.record_6 {
+  position: absolute;
+  bottom: 39rpx;
+  right: 39rpx;
+  font-size: 36rpx;
+}
+.bacnon {
+  font-size: 30rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80rpx;
+}
+
+

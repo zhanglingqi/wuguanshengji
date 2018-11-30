@@ -1,0 +1,12 @@
+var car = function (val) {
+  if (val.length == 0 || val == undefined) {
+    return;
+  }
+  if (val.length > 6) {
+    return val.split('').splice(2,0,'·').join('')
+    // return val.substring(0, 10);
+  } else {
+    return val;
+  }
+}
+module.exports.car = car;

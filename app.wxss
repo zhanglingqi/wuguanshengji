@@ -1,0 +1,39 @@
+view text {
+  font-family:PingFangSC-Regular;
+}
+button::after{ border: none; }
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+/* 字体图标 */
+@font-face {
+  font-family: 'iconfont';  /* project id 853337 */
+  src: url('//at.alicdn.com/t/font_853337_ez44jnwnna9.eot');
+  src: url('//at.alicdn.com/t/font_853337_ez44jnwnna9.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_853337_ez44jnwnna9.woff') format('woff'),
+  url('//at.alicdn.com/t/font_853337_ez44jnwnna9.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_853337_ez44jnwnna9.svg#iconfont') format('svg');
+}
+
+.iconfont {
+  font-family:"iconfont" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-youjiantou:before { content: "\e658"; }
+
+.icon-tianjia:before { content: "\e60d"; }
+
+.icon-qiche:before { content: "\e603"; }
+
+.icon-jilu:before { content: "\e62f"; }
+/* 字体图标结束 */

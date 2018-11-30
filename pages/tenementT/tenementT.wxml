@@ -1,0 +1,37 @@
+<wxs src="../../utils/subutil.wxs" module="tools" />
+<view class='visit'>
+    <view class='ownerVisit'>
+        <view class='ownerVisit_1'>访客信息</view>
+        <text class='ownerVisit_2'>姓名\n</text>
+        <text class='ownerVisit_2'>手机号\n</text>
+        <text class='ownerVisit_2'>到访日期\n</text>
+        <text class='ownerVisit_2'>到访时间\n</text>
+        <text class='ownerVisit_2'>车牌号\n</text>
+        <text class='ownerVisit_2'>访问原因\n</text>
+        <view class='ownerVisit1'>
+            <view class='ownerVisit_3'>{{name}}</view>
+            <view class='ownerVisit_3'>{{phone}}</view>
+            <view class='ownerVisit_3'>{{tools.sub(year)}}</view>
+            <text class='ownerVisit_3'>{{startTime}}</text>
+            <text class='ownerVisit_4' decode="{{true}}" space="{{true}}">&nbsp;&nbsp;&nbsp;至&nbsp;&nbsp;&nbsp;</text>
+            <text class='ownerVisit_3'>{{endTime}}\n</text>
+            <view class='ownerVisit_3' wx:if="{{ car == '' }}">-------</view>
+            <view class='ownerVisit_3' wx:else="{{ car != '' }}">{{car}}</view>
+            <view class='ownerVisit_3'>{{cous}}</view>
+        </view>
+    </view>
+    <view class='ownerVisit3'>
+        <text class='ownerVisit_2'>状态\n</text>
+        <view class='ownerVisit4'>
+            <view class='ownerVisit_5' wx:if="{{ status == 1 }}">审核中</view>
+            <view class='ownerVisit_5' wx:if="{{ status == 2 }}">通过</view>
+            <view class='ownerVisit_5' wx:if="{{ status == 3 }}">驳回</view>
+        </view>
+    </view>
+    <view class='ownerVisit2' style="display:{{bottomHidden1}}">
+        <text class='ownerVisit_2'>门禁密码\n</text>
+        <view class='ownerVisit4'>
+            <view class='ownerVisit_6'>{{pasword}}</view>
+        </view>
+    </view>
+</view>

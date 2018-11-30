@@ -1,0 +1,50 @@
+<view class='visit'>
+    <view class='ownerVisit'>
+        <view class='ownerVisit_1'>访客信息\n</view>
+        <text class='ownerVisit_2'>姓名\n</text>
+        <text class='ownerVisit_2'>手机号\n</text>
+        <text class='ownerVisit_2'>到访日期\n</text>
+        <text class='ownerVisit_2'>到访时间\n</text>
+        <text class='ownerVisit_2'>车牌号\n</text>
+        <form class='ownerVisit1' >
+            <input class='ownerVisit_3' placeholder='请输入' bindinput="bindUser"></input>
+            <input class='ownerVisit_3' placeholder='请输入' bindinput="bindphone" type='number'></input>
+            <picker mode="date" value="{{date}}" class='ownerVisit_3' start="2018-11-20" end="2099-12-12" bindchange="bindDateChange">
+              <text>{{date}}</text>
+            </picker>
+            <view class='dataTime'> 
+                <picker mode="time" class='ownerVisit_3'start="09:01" end="21:01" value="{{time}}"bindchange="bindTimeChange">
+              <text>{{time}}</text>
+            </picker>
+            <text class='ownerVisit_4' decode="{{true}}" space="{{true}}">&nbsp;&nbsp;&nbsp;至&nbsp;&nbsp;&nbsp;</text>
+            <picker mode="time" class='ownerVisit_3' start="09:01" end="21:01" value="{{time1}}" bindchange="bindTimeChange1">
+              <text>{{time1}}</text>
+              <text>（选填）</text>
+            </picker>
+            </view>
+            <input class='ownerVisit_3' disabled='false' placeholder='请输入（进出车场凭证）'  value='{{car}}'  catchtap='carTab'></input>
+        </form> 
+    </view>
+    <view class='ownerVisi2'>
+        <view class='ownerVisit_1'>业主信息\n</view>
+          <text class='ownerVisit_2'>姓名\n</text>
+          <text class='ownerVisit_2'>手机号\n</text>
+          <text class='ownerVisit_2'>楼号\n</text>
+          <text class='ownerVisit_2'>单元\n</text>
+          <text class='ownerVisit_2'>房间\n</text>
+          <form class='ownerVisit1'>
+            <input class='ownerVisit_3' placeholder='请输入' bindinput="ownerName"></input>
+            <input class='ownerVisit_3' placeholder='请输入' bindinput="ownerPhone" type='number'></input>
+            <picker  bindchange="bindPickerChange" value="{{index}}" range="{{array1}}">
+              <input class="ownerVisit_3"  disabled='false' placeholder='请选择 ▼' value='{{array1[index]}}'></input>
+            </picker>
+            <picker  bindchange="bindPickerChange1" value="{{index1}}" range="{{array2}}">
+              <input class="ownerVisit_3" disabled='false' placeholder='请选择 ▼' value='{{array2[index1]}}'></input>
+            </picker>
+            <picker bindchange="bindPickerChange2" value="{{index2}}" range="{{array3}}">
+              <input class="ownerVisit_3" disabled='false' placeholder='请选择 ▼' value='{{array3[index2]}}'></input>
+            </picker>
+          </form>
+     </view>
+  </view>
+ <button bindtap='login'  class='btn'>确 定</button>

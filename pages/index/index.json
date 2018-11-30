@@ -1,0 +1,8 @@
+{
+  "component": true,
+  "usingComponents": {},
+  "navigationBarTitleText": "停车缴费",
+  "backgroundTextStyle": "light",
+  "navigationBarBackgroundColor": "#fff",
+  "navigationBarTextStyle": "black"
+}

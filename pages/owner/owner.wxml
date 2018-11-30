@@ -1,0 +1,27 @@
+<wxs src="../../utils/subutil.wxs" module="tools" />
+<view class='fatt'>
+    <view class='ss'>
+    <scroll-view class='content' scroll-y="{{true}}" bindscrolltolower="loadMore">
+      <view class='owner'  wx:for="{{ record }}"  wx:key="index" >
+          <navigator url='../visitT/visitT?id={{ item.id }}' hover-class='none'>
+            <view class='owner_1'> 访问 {{item.ghsUserName}}</view>
+            <view class='owner_2'>{{tools.sub(item.visitDay)}} {{item.startTime}} - {{item.endTime}}</view>
+            <view class='tiaozhuan' >
+                <view class='tiaozhuan_1' wx:if="{{ item.state == 1 }}" >审核中</view>
+                <view class='tiaozhuan_1' wx:if="{{ item.state == 2 }}" >通过</view>
+                <view class='tiaozhuan_1' wx:if="{{ item.state == 3 }}" >驳回</view>
+                <view class='iconfont icon-youjiantou tiaozhuan_2'></view>
+            </view>
+          </navigator>
+      </view>
+      <view class='owner' url='../visitT/visitT' style="display:{{bottomHidden1}}" >
+          <view class='bacnon' >暂无数据，请点击下方添加按添加信息</view>
+      </view>
+    </scroll-view>
+    </view> 
+    <view>
+        <navigator url='../visitApply/visitApply' class='add' hover-class="none">
+        <text class='add_1'>+</text>
+        </navigator>
+    </view>
+</view>

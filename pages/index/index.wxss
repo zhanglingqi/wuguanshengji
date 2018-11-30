@@ -1,0 +1,141 @@
+.top {
+  width: 90%;
+  height: 214rpx;
+  border: 1rpx solid #f5f5f5;
+  border-radius: 15rpx;
+  box-shadow:0px 0px  2rpx 2rpx #f5f5f5;
+  margin-top: 30rpx;
+  margin-left: 5%;
+  position: relative;
+}
+.top > text {
+display: block;
+margin: 15rpx 30rpx;
+}
+.title_2 {
+  font-size: 24rpx;
+  color: #9a9a9a;
+  height: 33rpx;
+  line-height: 33rpx;
+}
+.title_3 {
+  font-size: 24rpx;
+  margin-left: 5%;
+}
+.title_5 {
+  font-size: 32rpx;
+  margin-left: 40%;
+}
+.banner {
+  width: 90%; 
+  border: 1rpx solid #f5f5f5;
+  border-radius: 15rpx;
+  box-shadow:0px 0px  2rpx 2rpx #f5f5f5;
+  margin-top: 30rpx;
+  margin-left: 5%;
+  position: relative;
+  overflow: hidden;
+}
+.carr {
+  padding: 27rpx 27rpx;
+  height: 40rpx;
+  line-height: 40rpx;
+}
+.car_1 {
+  float: left;
+  width: 45rpx;
+  height: 36rpx;
+  line-height: 36rpx;
+}
+.car_2 {
+  float: left;
+  height: 36rpx;
+  line-height: 36rpx;
+  font-size: 32rpx;
+  color: #000000;
+  margin-left: 20rpx;
+}
+.more {
+  display: flex;
+  width: 78%;
+  border-top: 1px solid #f6f6f6;
+  justify-content: center;
+  align-items: center;
+  padding: 52rpx;
+  margin-left:2%;
+}
+.titleN {
+  border-top: 1px solid #f6f6f6;
+  /* height: 200rpx; */
+  padding: 30rpx;
+  font-size: 50rpx;
+  float: left;
+  width: 90%;
+}
+.dele {
+  width: 34rpx;
+  height: 34rpx;
+  line-height: 34rpx;
+  float: right;
+  padding-top: 5rpx;
+}
+.icon-tianjia {
+  color: #f5d24d;
+  font-size: 24rpx;
+}
+.more_1 {
+  color: #f5d24d;
+  font-size: 24rpx;
+}
+.bom {
+  width: 82%; 
+  height: 80rpx;
+  line-height: 80rpx;
+  border: 1rpx solid #f5f5f5;
+  border-radius: 15rpx;
+  box-shadow:0px 0px  2rpx 2rpx #f5f5f5;
+  margin-top: 30rpx;
+  margin-left: 5%;
+  padding: 30rpx;
+  position: relative;
+}
+.bom_1 {
+  float: left;
+  font-size: 32rpx;
+  height: 45rpx;
+  line-height: 45rpx;
+  margin-top: 15rpx;
+}
+.jilu {
+  float: left;
+  width: 35rpx;
+  height: 41rpx;
+  margin-top: 15rpx;
+}
+.icon-youjiantou {
+  position: absolute;
+  right: 0;
+  bottom: 35rpx;
+  font-size: 32rpx;
+}
+.chepai {
+  height: 56rpx;
+  width: 300rpx;
+  font-size:40rpx;
+  line-height: 56rpx;
+}
+.chu {
+  float: right;
+  width:133rpx;
+  height:68rpx; 
+  background-color:#FCCF4F;
+  border-radius:10rpx;
+  font-size: 24rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.add_88 {
+  width: 35rpx;
+  height: 36rpx;
+}

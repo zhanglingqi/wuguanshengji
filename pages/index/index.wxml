@@ -1,0 +1,29 @@
+<view class='top'>
+  <text class='title_1' >{{title}}停车场\n</text>
+  <text class='title_2'>停车费：{{hour}}\n</text>
+  <view>
+    <text class='title_3'>总车位：{{total}}</text>
+    <text class='title_5'>剩余车位：{{residue}}</text>
+  </view>
+</view>
+<view class='banner'>
+  <view class='carr'>
+      <image class='car_1' src='../../images/group4.png'></image>
+      <view class='car_2'>我的爱车</view>
+      <image wx:if="{{ plates.length > 0 }}" wx:key="length" class='dele' src='../../images/del.png' catchtap="deleteT"></image>
+  </view>
+  <navigator wx:if="{{ plates.length == 0 }}" url='../plate-input/plate-input' hover-class="none" class='more'>
+    <image class='add_88' src='../../images/add.png'></image>
+    <text decode="{{true}}" space="{{true}}" class='more_1'>&nbsp;&nbsp;添加车辆</text>
+  </navigator>
+    <view wx:else="{{ plates.length > 0 }}" class='titleN'>
+      <text class='chepai'>{{plates}}</text>
+      <view class='chu' catchtap='go'>出 场</view>
+    </view>
+</view >
+    <navigator class='bom' url='../cartM/cartM'   hover-class="none">
+        <image class='jilu' src='../../images/group6.png'></image>
+        <text class='bom_1' decode="{{true}}" space="{{true}}">&nbsp;&nbsp;&nbsp;车费记录</text>
+        <text class='iconfont icon-youjiantou'></text>
+    </navigator>
+

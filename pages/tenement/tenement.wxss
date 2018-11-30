@@ -1,0 +1,80 @@
+page{
+  height: 100%;
+}
+.content {
+  height: 85%;
+}
+.owner {
+  width: 85%;
+  margin: 30rpx auto;
+  height: 211rpx;
+  box-shadow:0px 0px 7px 0px rgba(224,223,224,0.98);
+  border-radius:10px;
+  overflow: hidden;
+  position: relative;
+}
+.owner_1, .owner_2 {
+  width: 50%;
+  margin: 30rpx;
+}
+.owner_1 {
+  height: 53rpx;
+  font-size: 32rpx;
+  font-weight: 600;
+  color: #000;
+  line-height: 53rpx;
+}
+.owner_2 {
+   height: 50rpx;
+   font-size: 24rpx;
+   line-height: 50rpx;
+   color: #9B9B9B;
+}
+.tiaozhuan {
+  width: 30%;
+  height: 30%;
+}
+.tiaozhuan_1 {
+  position: absolute;
+  right: 60rpx;
+  top: 25%;
+  color: #F56437;
+  font-size: 28rpx;
+}
+.tiaozhuan_2 {
+  position: absolute;
+  right: 15rpx;
+  top: 45%;
+}
+.add {
+  bottom: 2%;
+  margin: 30rpx 45%;
+  width:109rpx;
+  height:109rpx;
+  background:rgba(255,255,255,1);
+  box-shadow:0px 0px 11px 0px rgba(0,0,0,0.2);
+  border-radius: 50%;
+  position: fixed;
+}
+.add_1 {
+  position: absolute;
+  top: 30%;
+  left: 39.5%;
+  color: #F9CC4F;
+  height: 43rpx;
+  width: 22rpx;
+  font-size: 36rpx;
+  line-height: 43rpx;
+}
+.ss {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+}
+.bacnon {
+  font-size: 30rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80rpx;
+}

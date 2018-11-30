@@ -1,0 +1,8 @@
+{
+  "component": true,
+  "usingComponents": {},
+  "navigationBarTitleText": "光合物管",
+  "backgroundTextStyle": "light",
+  "navigationBarBackgroundColor": "#fff",
+  "navigationBarTextStyle": "black"
+}

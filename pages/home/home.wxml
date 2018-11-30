@@ -1,0 +1,24 @@
+<view class='home'>
+  <view class='title'>光合物管</view>
+  <view class='nav'>
+      <image class='navImg' src='../../images/address.png'></image>
+      <view class='navText'>
+          <text class='navText_1'>欢迎来到{{hoem}}\n</text>
+          <text class='navText_2'>{{cityName}}{{districtName}}{{communityName}}</text>
+      </view>
+  </view>
+  <view class='myfunc'>我的功能</view>
+  <button  class='owner' wx:if="{{canIUse}}" open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo" hover-class="none">
+      <image  class='ownerImg' src='../../images/Group.png'></image>
+      <view class='ownerTitle'>访问业主</view>
+  </button>
+  <button  class='owner'  wx:if="{{canIUse}}" open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo1" hover-class="none">
+      <image  class='ownerImg' src='../../images/Group1.png'></image>
+      <view class='ownerTitle'>访问物业</view>
+  </button>
+  <button  class='car'  wx:if="{{canIUse}}" open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo2" hover-class="none">
+      <image class='carImg' src='../../images/Group2.png'></image>
+      <view class='carTitleT'>停车场</view>
+  </button>
+  <view wx:else>请升级微信版本</view>
+</view>
